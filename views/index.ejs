@@ -1,0 +1,11 @@
+<!-- index.ejs -->
+
+<html>
+  <body>
+    <% for(let i = 0; i < messages.length; i++){ %>
+    <p><%= messages[i].user %></p>
+    <p><%= messages[i].text %></p>
+    <p><%= messages[i].added %></p>
+    <% } %>
+  </body>
+</html>
